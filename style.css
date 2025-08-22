@@ -1,0 +1,136 @@
+body {
+       margin: 0;
+       font-size: 25px;
+}
+.section {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 40px;
+}
+.image-area {
+       flex: 1;
+       display: flex;
+       justify-content:right;
+       padding-right: 20px;
+       margin-bottom: 100px;
+}
+.image-area img {
+       height: auto;
+       max-width: 100%;
+       border-radius: 12px;
+       object-fit: cover;
+       box-shadow: 0 0 15x;
+       margin-bottom: 100px;
+}
+.text-area {
+       flex: 1;
+       padding-left: 20px;
+       text-align: left;
+       margin-top: 100px;
+}
+       
+.image-center{ 
+       display: flexbox;
+       text-align: center;
+       margin-top: 20px;
+}
+.image-center img {
+       display: flexbox;
+       width: 200px;
+}
+header{
+       height: 100vh;
+        color:white;
+        margin: 0;
+        padding: 0;
+        background-image: url(whatapp\ image.jpg);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        background-position: center;
+        text-align: center;
+        
+}
+button-row {
+       display: flex;
+       justify-content: center;
+       gap: 15px;
+       margin-top: 20px;
+       flex-wrap: wrap;
+}
+button {
+       height: 40px;
+       width: 140px;
+       border-radius: 10px;
+       border: none;
+}
+.button:hover{
+       color:azure;
+       background-color:brown;
+}
+h1 {
+       font-size:30px;
+       color:white;
+}
+header h1{
+       color: aliceblue;
+       margin: 0;
+       font-size: 50px;
+}
+main {
+       padding: 15px;
+}
+section {
+       height: 100vh;
+       color: aliceblue;
+       border: 1px solid whitesmoke;
+       border-radius: 20px;
+       margin-bottom: 20px;
+       background-image: url(whatapp\ image.jpg);
+       background-size: cover;
+       background-repeat:no-repeat ;
+       background-position: center;
+       text-align: center;
+}
+.center {
+       width: 80%;
+       margin: auto;
+       border: 1px solid whitesmoke;
+       box-sizing: border-box;
+}
+.big-box {
+       transform: scale(1.5);
+       margin: 10px;
+       accent-color:red;
+}
+ul {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+
+}
+ .submit button{
+       height: 40px;
+       width: 140px;
+       border-radius: 10px;
+       border: none;
+}
+button:hover{
+       color:purple;
+       background-color:blue;
+}
+input {
+       border-radius: 5px;
+       border: 1px solid lavender;
+       height: 25px;
+}
+.fixedbutton {
+             position: fixed;
+             bottom: 10px;
+             right: 10px;
+}
+footer{
+       height: 124px;
+       background-color: black;
+       color: aliceblue;
+}
